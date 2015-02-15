@@ -2,6 +2,7 @@
 public class Piece {
     
     
+    
     private int xpos, ypos;
     private Board b;
     private String type;
