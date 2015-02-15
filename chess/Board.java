@@ -1,4 +1,7 @@
+/*
+pulled down and modified.
 
+*/
 public class Board {
     
     private Piece[][] content = new Piece[8][8];
