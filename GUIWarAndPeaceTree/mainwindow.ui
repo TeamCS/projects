@@ -1,0 +1,817 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1093</width>
+    <height>697</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Text Pro. Ultimate 1.121</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>10</y>
+      <width>911</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_3">
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Book Text</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>30</y>
+      <width>1041</width>
+      <height>601</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QPushButton" name="pushButton">
+         <property name="font">
+          <font>
+           <pointsize>9</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>Select a text file</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <widget class="QTextBrowser" name="BookText"/>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QTabWidget" name="tabWidget">
+       <property name="currentIndex">
+        <number>26</number>
+       </property>
+       <widget class="QWidget" name="A">
+        <attribute name="title">
+         <string>A</string>
+        </attribute>
+        <layout class="QGridLayout" name="gridLayout">
+         <item row="0" column="0">
+          <widget class="QTableWidget" name="Atable">
+           <column>
+            <property name="text">
+             <string>Word</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Count</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Positions (paragraph# - line#)</string>
+            </property>
+           </column>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="B">
+        <attribute name="title">
+         <string>B</string>
+        </attribute>
+        <layout class="QGridLayout" name="gridLayout_2">
+         <item row="0" column="0">
+          <widget class="QTableWidget" name="Atable_2">
+           <column>
+            <property name="text">
+             <string>Word</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Count</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Positions (paragraph# - line#)</string>
+            </property>
+           </column>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="C">
+        <attribute name="title">
+         <string>C</string>
+        </attribute>
+        <layout class="QGridLayout" name="gridLayout_3">
+         <item row="0" column="0">
+          <widget class="QTableWidget" name="Atable_3">
+           <column>
+            <property name="text">
+             <string>Word</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Count</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Positions (paragraph# - line#)</string>
+            </property>
+           </column>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="D">
+        <attribute name="title">
+         <string>D</string>
+        </attribute>
+        <layout class="QGridLayout" name="gridLayout_4">
+         <item row="0" column="0">
+          <widget class="QTableWidget" name="Atable_4">
+           <column>
+            <property name="text">
+             <string>Word</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Count</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Positions (paragraph# - line#)</string>
+            </property>
+           </column>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="E">
+        <attribute name="title">
+         <string>E</string>
+        </attribute>
+        <layout class="QGridLayout" name="gridLayout_5">
+         <item row="0" column="0">
+          <widget class="QTableWidget" name="Atable_5">
+           <column>
+            <property name="text">
+             <string>Word</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Count</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Positions (paragraph# - line#)</string>
+            </property>
+           </column>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="F">
+        <attribute name="title">
+         <string>F</string>
+        </attribute>
+        <layout class="QGridLayout" name="gridLayout_6">
+         <item row="0" column="0">
+          <widget class="QTableWidget" name="Atable_6">
+           <column>
+            <property name="text">
+             <string>Word</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Count</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Positions (paragraph# - line#)</string>
+            </property>
+           </column>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="G">
+        <attribute name="title">
+         <string>G</string>
+        </attribute>
+        <layout class="QGridLayout" name="gridLayout_7">
+         <item row="0" column="0">
+          <widget class="QTableWidget" name="Atable_7">
+           <column>
+            <property name="text">
+             <string>Word</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Count</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Positions (paragraph# - line#)</string>
+            </property>
+           </column>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="H">
+        <attribute name="title">
+         <string>H</string>
+        </attribute>
+        <layout class="QGridLayout" name="gridLayout_8">
+         <item row="0" column="0">
+          <widget class="QTableWidget" name="Atable_8">
+           <column>
+            <property name="text">
+             <string>Word</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Count</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Positions (paragraph# - line#)</string>
+            </property>
+           </column>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="I">
+        <attribute name="title">
+         <string>I</string>
+        </attribute>
+        <layout class="QGridLayout" name="gridLayout_9">
+         <item row="0" column="0">
+          <widget class="QTableWidget" name="Atable_9">
+           <column>
+            <property name="text">
+             <string>Word</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Count</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Positions (paragraph# - line#)</string>
+            </property>
+           </column>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="J">
+        <attribute name="title">
+         <string>J</string>
+        </attribute>
+        <layout class="QGridLayout" name="gridLayout_10">
+         <item row="0" column="0">
+          <widget class="QTableWidget" name="Atable_10">
+           <column>
+            <property name="text">
+             <string>Word</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Count</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Positions (paragraph# - line#)</string>
+            </property>
+           </column>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="K">
+        <attribute name="title">
+         <string>K</string>
+        </attribute>
+        <layout class="QGridLayout" name="gridLayout_11">
+         <item row="0" column="0">
+          <widget class="QTableWidget" name="Atable_11">
+           <column>
+            <property name="text">
+             <string>Word</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Count</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Positions (paragraph# - line#)</string>
+            </property>
+           </column>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="L">
+        <attribute name="title">
+         <string>L</string>
+        </attribute>
+        <layout class="QGridLayout" name="gridLayout_12">
+         <item row="0" column="0">
+          <widget class="QTableWidget" name="Atable_12">
+           <column>
+            <property name="text">
+             <string>Word</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Count</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Positions (paragraph# - line#)</string>
+            </property>
+           </column>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="M">
+        <attribute name="title">
+         <string>M</string>
+        </attribute>
+        <layout class="QGridLayout" name="gridLayout_13">
+         <item row="0" column="0">
+          <widget class="QTableWidget" name="Atable_13">
+           <column>
+            <property name="text">
+             <string>Word</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Count</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Positions (paragraph# - line#)</string>
+            </property>
+           </column>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="N">
+        <attribute name="title">
+         <string>N</string>
+        </attribute>
+        <layout class="QGridLayout" name="gridLayout_14">
+         <item row="0" column="0">
+          <widget class="QTableWidget" name="Atable_14">
+           <column>
+            <property name="text">
+             <string>Word</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Count</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Positions (paragraph# - line#)</string>
+            </property>
+           </column>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="O">
+        <attribute name="title">
+         <string>O</string>
+        </attribute>
+        <layout class="QGridLayout" name="gridLayout_15">
+         <item row="0" column="0">
+          <widget class="QTableWidget" name="Atable_15">
+           <column>
+            <property name="text">
+             <string>Word</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Count</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Positions (paragraph# - line#)</string>
+            </property>
+           </column>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="P">
+        <attribute name="title">
+         <string>P</string>
+        </attribute>
+        <layout class="QGridLayout" name="gridLayout_16">
+         <item row="0" column="0">
+          <widget class="QTableWidget" name="Atable_16">
+           <column>
+            <property name="text">
+             <string>Word</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Count</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Positions (paragraph# - line#)</string>
+            </property>
+           </column>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="Q">
+        <attribute name="title">
+         <string>Q</string>
+        </attribute>
+        <layout class="QGridLayout" name="gridLayout_17">
+         <item row="0" column="0">
+          <widget class="QTableWidget" name="Atable_17">
+           <column>
+            <property name="text">
+             <string>Word</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Count</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Positions (paragraph# - line#)</string>
+            </property>
+           </column>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="R">
+        <attribute name="title">
+         <string>R</string>
+        </attribute>
+        <layout class="QGridLayout" name="gridLayout_18">
+         <item row="0" column="0">
+          <widget class="QTableWidget" name="Atable_18">
+           <column>
+            <property name="text">
+             <string>Word</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Count</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Positions (paragraph# - line#)</string>
+            </property>
+           </column>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="S">
+        <attribute name="title">
+         <string>S</string>
+        </attribute>
+        <layout class="QGridLayout" name="gridLayout_19">
+         <item row="0" column="0">
+          <widget class="QTableWidget" name="Atable_19">
+           <column>
+            <property name="text">
+             <string>Word</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Count</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Positions (paragraph# - line#)</string>
+            </property>
+           </column>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="T">
+        <attribute name="title">
+         <string>T</string>
+        </attribute>
+        <layout class="QGridLayout" name="gridLayout_20">
+         <item row="0" column="0">
+          <widget class="QTableWidget" name="Atable_20">
+           <column>
+            <property name="text">
+             <string>Word</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Count</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Positions (paragraph# - line#)</string>
+            </property>
+           </column>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="U">
+        <attribute name="title">
+         <string>U</string>
+        </attribute>
+        <layout class="QGridLayout" name="gridLayout_21">
+         <item row="0" column="0">
+          <widget class="QTableWidget" name="Atable_21">
+           <column>
+            <property name="text">
+             <string>Word</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Count</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Positions (paragraph# - line#)</string>
+            </property>
+           </column>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="V">
+        <attribute name="title">
+         <string>V</string>
+        </attribute>
+        <layout class="QGridLayout" name="gridLayout_22">
+         <item row="0" column="0">
+          <widget class="QTableWidget" name="Atable_22">
+           <column>
+            <property name="text">
+             <string>Word</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Count</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Positions (paragraph# - line#)</string>
+            </property>
+           </column>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="W">
+        <attribute name="title">
+         <string>W</string>
+        </attribute>
+        <layout class="QGridLayout" name="gridLayout_23">
+         <item row="0" column="0">
+          <widget class="QTableWidget" name="Atable_23">
+           <column>
+            <property name="text">
+             <string>Word</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Count</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Positions (paragraph# - line#)</string>
+            </property>
+           </column>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="X">
+        <attribute name="title">
+         <string>X</string>
+        </attribute>
+        <layout class="QGridLayout" name="gridLayout_24">
+         <item row="0" column="0">
+          <widget class="QTableWidget" name="Atable_24">
+           <column>
+            <property name="text">
+             <string>Word</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Count</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Positions (paragraph# - line#)</string>
+            </property>
+           </column>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="Y">
+        <attribute name="title">
+         <string>Y</string>
+        </attribute>
+        <layout class="QGridLayout" name="gridLayout_25">
+         <item row="0" column="0">
+          <widget class="QTableWidget" name="Atable_25">
+           <column>
+            <property name="text">
+             <string>Word</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Count</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Positions (paragraph# - line#)</string>
+            </property>
+           </column>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="Z">
+        <attribute name="title">
+         <string>Z</string>
+        </attribute>
+        <layout class="QGridLayout" name="gridLayout_26">
+         <item row="0" column="0">
+          <widget class="QTableWidget" name="Atable_26">
+           <column>
+            <property name="text">
+             <string>Word</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Count</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Positions (paragraph# - line#)</string>
+            </property>
+           </column>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="Summary">
+        <attribute name="title">
+         <string>Summary</string>
+        </attribute>
+        <layout class="QGridLayout" name="gridLayout_27">
+         <item row="0" column="0">
+          <widget class="QTextBrowser" name="Summary_27"/>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1093</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuAuthors">
+    <property name="title">
+     <string>Authors</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuXizhao_Deng">
+    <property name="title">
+     <string>Xizhao Deng</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuJason_Shen">
+    <property name="title">
+     <string>Jason Shen</string>
+    </property>
+   </widget>
+   <addaction name="menuAuthors"/>
+   <addaction name="menuXizhao_Deng"/>
+   <addaction name="menuJason_Shen"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
