@@ -1,0 +1,8 @@
+#ifndef INCLUDE_H
+#define INCLUDE_H
+
+
+enum ERRORS { DATATYPE_MISMATCH=0, EMPTY=1, BAD_SIZE=2, FULL=3, WRONG_TYPE=4, BAD_maxSize=5, INVALID_EQU_FORMAT=6, DIVIDE_BY_ZERO=7, NO_LEFT_PAREN=8, MIS_MATCH_PATHEN=9 };
+//contains all the error messages
+
+#endif // INCLUDE_H
