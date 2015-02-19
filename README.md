@@ -9,4 +9,4 @@ Hog   ---> Project in CS61A. Dice game.
 
 Scheme ---> Project in CS61A. Scheme interpreter written by python.
 
-GUIWarAndPeace ---> Project from CS8 in PCC. Text analysor written in C++ with Qt GUI library.
+GUIWarAndPeace ---> Project from CS8 in PCC. Text analysor written in C++ with Qt GUI library. 
